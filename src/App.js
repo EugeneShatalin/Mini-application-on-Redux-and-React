@@ -52,7 +52,7 @@ function App() {
                     </div>
                 }
                 <button onClick={() => addCustomer(prompt())}>Добавить пользователя</button>
-                <button onClick={() => dispatch(fetchCustomers())}>Получить пользователей</button>
+                <button onClick={() => dispatch(fetchCustomers())}>Получить пользователей из базы</button>
             </div>
         </div>
     );
